@@ -1,0 +1,50 @@
+canonical_identifier: bkk:krp/KR6d0109/T/v1
+canonical_location: https://kanripo.org/bkk/KR6d0109/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大法鼓經
+  identifiers:
+    krp: KR6d0109
+    cbeta: T09n0270
+    cbeta_old_id: T09n0270
+    authorityid: CA0000576
+    json_key: T0270
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T09/T09n0270.xml
+    old_id: T09n0270
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0109_000-T.yaml, hash: 'sha256:0dbb411dd722d6a037c73edd5ce520cf5119b1ba3b1a224c43abc7b45049edfd'}
+  - {seq: 1, filename: KR6d0109_001-T.yaml, hash: 'sha256:ea3b3f9a1534e70f9b9ef30899617d8d9d1263a53bcf7028a04380e04ff0f48a'}
+  - {seq: 2, filename: KR6d0109_002-T.yaml, hash: 'sha256:805c2400d9aa8e8a363ac34e1a0bbb3a384eba732ef60efad2d62d71ef6fe98d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6d0109_000-T.markers.yaml, hash: 'sha256:1e7443ef1046199bb5e65c45887d1da8bbca3b7d1c8854bd5180037e3d3c1cf2'}
+  - {seq: 1, role: markers, filename: assets/KR6d0109_001-T.markers.yaml, hash: 'sha256:d9e527054f0b5c0263c144aa5173ad8628cdf2b65c896812c1b18a58d0b183ff'}
+  - {seq: 2, role: markers, filename: assets/KR6d0109_002-T.markers.yaml, hash: 'sha256:c442c590226a8e266c468dcd1c7d8fef735b8ab08ef7d4263602dff2fccc93e5'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0109_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6233
+  label: 大法鼓經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6d0109_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7593
+  label: 大法鼓經卷下
+  type: juan
+  level: 1
+hash: sha256:3c30c1687ea55c4a1297f47c942da55edfe8e91e679cdf53e42e018e118390e6

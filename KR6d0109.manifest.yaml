@@ -1,0 +1,69 @@
+canonical_identifier: bkk:krp/KR6d0109/v1
+canonical_location: https://kanripo.org/bkk/KR6d0109/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大法鼓經
+  identifiers:
+    alt_id:
+    - T09n0270
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T09/T09n0270.xml
+    old_id: T09n0270
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 元
+  label: 元
+  source_xml_id: wit1
+- short: 明
+  label: 明
+  source_xml_id: wit2
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 南藏
+  label: 南藏
+  source_xml_id: wit7
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0109_000.yaml, hash: 'sha256:0dbb411dd722d6a037c73edd5ce520cf5119b1ba3b1a224c43abc7b45049edfd'}
+  - {seq: 1, filename: KR6d0109_001.yaml, hash: 'sha256:06614a2cc91858f9a458fba281fc6a849c28fbb89613dd3b220e7cb2b280c255'}
+  - {seq: 2, filename: KR6d0109_002.yaml, hash: 'sha256:ce9c50da3ef91a287c247fd1d5d635b38d21535bb5220ae097f8d7742b600564'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6d0109_001.markers.yaml, hash: 'sha256:39582e113b37908bb2058fe0ea6c5af2db9f9d90879c7969fdfb73271feacd6f'}
+  - {seq: 2, role: markers, filename: assets/KR6d0109_002.markers.yaml, hash: 'sha256:3f10f47bd7844cca954a7c96eb8e0127f41edd7b2703eba39f06b03b3c98c656'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0109_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6233
+  label: 大法鼓經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6d0109_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7593
+  label: 大法鼓經卷下
+  type: juan
+  level: 1
+hash: sha256:5f4ce40661d76fd7613a74556c25fe7fd5380b67ff39615b74cfbb401d56fef4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

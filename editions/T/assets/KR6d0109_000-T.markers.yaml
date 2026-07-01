@@ -1,0 +1,18 @@
+canonical_identifier: bkk:krp/KR6d0109/T/v1/markers/0
+seq: 0
+markers:
+  front:
+  - {type: line-break, offset: 0, content: '', id: KR6d0109_T_000-0290b09, ed: T, 'n': 0290b09}
+  - {type: line-break, offset: 0, content: '', id: KR6d0109_T_000-0290b10, ed: T, 'n': 0290b10}
+  - {type: line-break, offset: 0, content: '', id: KR6d0109_T_000-0290b11, ed: T, 'n': 0290b11}
+  - {type: punctuation, offset: 0, content: 'N', id: KR6d0109_T_000-bkkpn1}
+  - {type: punctuation, offset: 0, content: o, id: KR6d0109_T_000-bkkpn2}
+  - {type: punctuation, offset: 0, content: ., id: KR6d0109_T_000-bkkpn3}
+  - {type: punctuation, offset: 0, content: '2', id: KR6d0109_T_000-bkkpn4}
+  - {type: punctuation, offset: 0, content: '7', id: KR6d0109_T_000-bkkpn5}
+  - {type: punctuation, offset: 0, content: '0', id: KR6d0109_T_000-bkkpn6}
+  - {type: line-break, offset: 0, content: '', id: KR6d0109_T_000-0290b12, ed: T, 'n': 0290b12}
+  - {type: variant, offset: 0, length: 0, content: '', 大: '[No. 271]'}
+  body: []
+  back: []
+hash: sha256:1e7443ef1046199bb5e65c45887d1da8bbca3b7d1c8854bd5180037e3d3c1cf2
